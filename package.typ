@@ -193,27 +193,28 @@
     set text(font: default-theme.font-secondary) if "font-secondary" not in theme
     set block(above: 0pt, below: 0pt)
     stack(
-      dir: ltr,
-      spacing: 1fr,
+      dir: ttb,
+      spacing: 5pt,
       stack(
-        spacing: 5pt,
+        dir: ltr,
+        spacing: 1fr,
         context {
           set text(weight: "light", fill: text.fill.lighten(30%))
           timeframe
         },
-        {
-          {
-            set text(weight: "bold")
-            upper(title)
-          }
-          " – "
-          organization
+        context {
+          set align(horizon)
+          set text(weight: "light", fill: text.fill.lighten(30%))
+          location
         },
       ),
-      context {
-        set align(horizon)
-        set text(weight: "light", fill: text.fill.lighten(30%))
-        location
+      {
+        {
+          set text(weight: "bold")
+          upper(title)
+        }
+        " – "
+        organization
       },
     )
   }
