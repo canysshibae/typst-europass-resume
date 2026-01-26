@@ -1,6 +1,6 @@
 [package]
 name = "typographic-resume"
-version = "0.1.1"
+version = "0.2.0"
 authors = ["tsnobip <https://github.com/tsnobip>"]
 license = "MIT"
 description = "A stylish and customizable résumé template for Typst, designed with elegant typographic variations."

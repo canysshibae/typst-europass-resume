@@ -30,7 +30,7 @@ Copy the [template](https://raw.githubusercontent.com/tsnobip/typst-typographic-
 Import the library :
 
 ```typst
-#import "@preview/typographic-resume:0.1.1": *
+#import "@preview/typographic-resume:0.2.0": *
 ```
 
 Show the root `resume` function :
