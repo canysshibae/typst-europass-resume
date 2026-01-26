@@ -20,7 +20,7 @@
   profession: "Software Engineer",
   bio: [
     Experienced software engineer with a passion for developing innovative programs that expedite the efficiency and effectiveness of organizational success.],
-  profile-picture: image("../images/profile_pic_example.jpg"),
+  profile-picture: image("../images/profile_pic_example.jpg", alt: "profile-picture"),
   aside: {
     section(
       "Contact",
@@ -128,7 +128,7 @@
         space-above: 0pt,
       ),
       timeframe: "Jan 2024 - Today",
-      title: "Senior Software Engineer",
+      title: "Senior Software Engineer for local e-commerce platform",
       organization: "Tech Innovators Inc.",
       location: "Lyon, FR",
       [
