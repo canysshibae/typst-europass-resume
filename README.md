@@ -1,6 +1,6 @@
-# Typographic-Resume
+# Europass-Typst-Resume
 
-A stylish and customizable résumé template for Typst, designed with elegant typographic variations.
+A resumé template for Typst based on ["Typographic Resume"](https://github.com/tsnobip/typst-typographic-resume/) which mimics ["Europass CV"](https://europass.europa.eu/en/create-europass-cv).
 
 <a href="thumbnail.webp">
     <img src="thumbnail.webp" alt="thumbnail" width="300" />
@@ -164,3 +164,7 @@ Customize the theme by specifying the `theme` parameter and overriding 1 or more
 | ---------------- | -------- | ---------- |
 | `font-secondary` | str      | `"Roboto"` |
 | `font-size`      | relative | inherit    |
+
+# Legal Notice
+
+This template is licensed MIT. It is inspired from content provided by European Union which is licensed under ["Creative Commons Attribution 4.0 International (CC BY 4.0)"](http://creativecommons.org/licenses/by/4.0/), check their ["Legal Notice"](https://european-union.europa.eu/legal-notice_en). EU flag is [public domain](https://commons.wikimedia.org/wiki/File:Flag_of_Europe.svg#Original_graphical_design_and_permission_of_use) and its use allowed as long as I make clear I am not trying to represent the European Union, which I do note now.
